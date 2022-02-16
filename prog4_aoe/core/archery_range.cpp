@@ -6,7 +6,7 @@ namespace aoe::core {
     units_.clear();
   }
 
-  auto archery_range::create_unit(const unit::type type) -> unit* {
+  unit* archery_range::create_unit(const unit::type type) {
     switch (type)
     {
     case unit::type::archer: {
@@ -27,5 +27,5 @@ namespace aoe::core {
     }
     return nullptr;
   }
-  
+
 }

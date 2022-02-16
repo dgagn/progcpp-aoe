@@ -3,19 +3,16 @@
 #include "building.h"
 
 namespace aoe::core {
-
   /**
    * \brief the abstract house building.
    */
   class house : public building {
   public:
-
     /**
      * \brief constructs a house with a given name.
      * \param name the name of the house
      */
     explicit house(const std::string& name) : building(name) {}
-    
     /**
      * \brief virtual destructor makes the class abstract.
      */

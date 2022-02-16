@@ -3,7 +3,6 @@
 #include "../core/archer.h"
 
 namespace aoe::vikings {
-
   /**
    * \brief the vikings archer.
    */

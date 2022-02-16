@@ -4,19 +4,16 @@
 #include "building.h"
 
 namespace aoe::core {
-
   /**
    * \brief the abstract town center building.
    */
   class town_center : public building {
   public:
-
     /**
      * \brief constructs a town center with a given name.
      * \param name the name of the town center
      */
     explicit town_center(const std::string& name) : building(name) {}
-
     /**
      * \brief virtual destructor makes the class abstract.
      */

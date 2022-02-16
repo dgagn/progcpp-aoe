@@ -3,7 +3,6 @@
 #include "../core/archer.h"
 
 namespace aoe::japanese {
-
   /**
    * \brief the japanese archer.
    */

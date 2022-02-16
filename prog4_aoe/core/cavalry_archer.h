@@ -8,14 +8,12 @@ namespace aoe::core {
    */
   class cavalry_archer : public unit {
   public:
-
     /**
      * \brief constructs a cavalry archer with a given
      * name.
      * \param name the name of the cavalry archer
      */
     explicit cavalry_archer(const std::string& name) : unit(name) {}
-
     /**
      * \brief virtual destructor makes the class abstract.
      */
