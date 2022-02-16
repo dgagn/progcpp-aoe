@@ -4,7 +4,7 @@
 #include "base_vikings.h"
 
 
-auto test(const std::shared_ptr<base>& b) -> void {
+void test(const std::shared_ptr<base>& b) {
   const unit* archer = b->archery_range()->create_unit(unit::type::archer);
   const unit* cavalry_archer = b->archery_range()->create_unit(unit::type::cavalry_archer);
   const unit* hand_cannoneer = b->archery_range()->create_unit(unit::type::hand_cannoneer);

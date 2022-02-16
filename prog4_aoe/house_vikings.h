@@ -1,6 +1,4 @@
 #pragma once
 #include "house.h"
 
-class house_vikings : public house {
-};
-
+class house_vikings : public house {};

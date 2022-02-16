@@ -17,10 +17,6 @@ base::~base() {
   delete civilisation_;
 }
 
-archery_range* base::archery_range() const {
-  return archery_range_;
-}
+archery_range* base::archery_range() const { return archery_range_; }
 
-civilisation* base::civilisation() const {
-  return civilisation_;
-}
+civilisation* base::civilisation() const { return civilisation_; }

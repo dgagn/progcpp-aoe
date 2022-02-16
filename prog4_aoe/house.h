@@ -1,5 +1,4 @@
 #pragma once
 #include "building.h"
 
-class house : public building {
-};
+class house : public building {};
