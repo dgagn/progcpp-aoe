@@ -1,5 +1,4 @@
 #pragma once
-#include <cstdio>
 
 class building {
 protected:
