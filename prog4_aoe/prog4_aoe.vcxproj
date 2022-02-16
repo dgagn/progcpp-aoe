@@ -116,6 +116,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -130,6 +131,7 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <LanguageStandard>stdcpp20</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -139,43 +141,43 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="archer.cpp" />
-    <ClCompile Include="archery_range.cpp" />
-    <ClCompile Include="archery_range_vikings.cpp" />
-    <ClCompile Include="archer_vikings.cpp" />
-    <ClCompile Include="base.cpp" />
-    <ClCompile Include="base_vikings.cpp" />
-    <ClCompile Include="building.cpp" />
-    <ClCompile Include="cavalry_archer.cpp" />
-    <ClCompile Include="cavalry_archer_vikings.cpp" />
-    <ClCompile Include="civilisation.cpp" />
-    <ClCompile Include="hand_cannoneer.cpp" />
-    <ClCompile Include="hand_cannoneer_vikings.cpp" />
-    <ClCompile Include="house.cpp" />
-    <ClCompile Include="house_vikings.cpp" />
+    <ClCompile Include="core\archery_range.cpp" />
+    <ClCompile Include="core\base.cpp" />
+    <ClCompile Include="pch.cpp" />
     <ClCompile Include="prog4_aoe.cpp" />
-    <ClCompile Include="town_center.cpp" />
-    <ClCompile Include="town_center_vikings.cpp" />
-    <ClCompile Include="unit.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="archer.h" />
-    <ClInclude Include="archery_range.h" />
-    <ClInclude Include="archery_range_vikings.h" />
-    <ClInclude Include="archer_vikings.h" />
-    <ClInclude Include="base.h" />
-    <ClInclude Include="base_vikings.h" />
-    <ClInclude Include="building.h" />
-    <ClInclude Include="cavalry_archer.h" />
-    <ClInclude Include="cavalry_archer_vikings.h" />
-    <ClInclude Include="civilisation.h" />
-    <ClInclude Include="hand_cannoneer.h" />
-    <ClInclude Include="hand_cannoneer_vikings.h" />
-    <ClInclude Include="house.h" />
-    <ClInclude Include="house_vikings.h" />
-    <ClInclude Include="town_center.h" />
-    <ClInclude Include="town_center_vikings.h" />
-    <ClInclude Include="unit.h" />
+    <ClInclude Include="azteks\archer.h" />
+    <ClInclude Include="azteks\archery_range.h" />
+    <ClInclude Include="azteks\base.h" />
+    <ClInclude Include="azteks\cavalry_archer.h" />
+    <ClInclude Include="azteks\hand_cannoneer.h" />
+    <ClInclude Include="azteks\house.h" />
+    <ClInclude Include="azteks\town_center.h" />
+    <ClInclude Include="core\archer.h" />
+    <ClInclude Include="core\archery_range.h" />
+    <ClInclude Include="japanese\archer.h" />
+    <ClInclude Include="japanese\archery_range.h" />
+    <ClInclude Include="japanese\base.h" />
+    <ClInclude Include="japanese\cavalry_archer.h" />
+    <ClInclude Include="japanese\hand_cannoneer.h" />
+    <ClInclude Include="japanese\house.h" />
+    <ClInclude Include="japanese\town_center.h" />
+    <ClInclude Include="vikings\archery_range.h" />
+    <ClInclude Include="vikings\archer.h" />
+    <ClInclude Include="core\base.h" />
+    <ClInclude Include="vikings\base.h" />
+    <ClInclude Include="core\building.h" />
+    <ClInclude Include="core\cavalry_archer.h" />
+    <ClInclude Include="vikings\cavalry_archer.h" />
+    <ClInclude Include="core\hand_cannoneer.h" />
+    <ClInclude Include="vikings\hand_cannoneer.h" />
+    <ClInclude Include="core\house.h" />
+    <ClInclude Include="vikings\house.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="core\town_center.h" />
+    <ClInclude Include="vikings\town_center.h" />
+    <ClInclude Include="core\unit.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -16,117 +16,123 @@
     <Filter Include="Header Files\vikings">
       <UniqueIdentifier>{8db70653-3522-4524-966b-a317e5d821c5}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Source Files\vikings">
-      <UniqueIdentifier>{30bfb4a8-bd67-4a7b-9250-996fb5bc2b46}</UniqueIdentifier>
+    <Filter Include="Header Files\japanese">
+      <UniqueIdentifier>{4cfed690-6094-4f19-bade-cb717871582b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\core">
+      <UniqueIdentifier>{a97cf6d3-3591-4184-a5ca-2b69ef4d3367}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\azteks">
+      <UniqueIdentifier>{816d32a4-424c-43db-bc26-0c9545303389}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="prog4_aoe.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="base.cpp">
+    <ClCompile Include="core\base.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="building.cpp">
+    <ClCompile Include="core\archery_range.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="town_center.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="house.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="archery_range.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="unit.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="archer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="cavalry_archer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="hand_cannoneer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="base_vikings.cpp">
-      <Filter>Source Files\vikings</Filter>
-    </ClCompile>
-    <ClCompile Include="cavalry_archer_vikings.cpp">
-      <Filter>Source Files\vikings</Filter>
-    </ClCompile>
-    <ClCompile Include="hand_cannoneer_vikings.cpp">
-      <Filter>Source Files\vikings</Filter>
-    </ClCompile>
-    <ClCompile Include="town_center_vikings.cpp">
-      <Filter>Source Files\vikings</Filter>
-    </ClCompile>
-    <ClCompile Include="house_vikings.cpp">
-      <Filter>Source Files\vikings</Filter>
-    </ClCompile>
-    <ClCompile Include="archery_range_vikings.cpp">
-      <Filter>Source Files\vikings</Filter>
-    </ClCompile>
-    <ClCompile Include="archer_vikings.cpp">
-      <Filter>Source Files\vikings</Filter>
-    </ClCompile>
-    <ClCompile Include="civilisation.cpp">
+    <ClCompile Include="pch.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="base.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="building.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="town_center.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="house.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="archery_range.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="unit.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="archer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="cavalry_archer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="hand_cannoneer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="base_vikings.h">
+    <ClInclude Include="vikings\base.h">
       <Filter>Header Files\vikings</Filter>
     </ClInclude>
-    <ClInclude Include="cavalry_archer_vikings.h">
+    <ClInclude Include="vikings\cavalry_archer.h">
       <Filter>Header Files\vikings</Filter>
     </ClInclude>
-    <ClInclude Include="archery_range_vikings.h">
+    <ClInclude Include="vikings\archery_range.h">
       <Filter>Header Files\vikings</Filter>
     </ClInclude>
-    <ClInclude Include="archer_vikings.h">
+    <ClInclude Include="vikings\archer.h">
       <Filter>Header Files\vikings</Filter>
     </ClInclude>
-    <ClInclude Include="hand_cannoneer_vikings.h">
+    <ClInclude Include="vikings\hand_cannoneer.h">
       <Filter>Header Files\vikings</Filter>
     </ClInclude>
-    <ClInclude Include="town_center_vikings.h">
+    <ClInclude Include="vikings\town_center.h">
       <Filter>Header Files\vikings</Filter>
     </ClInclude>
-    <ClInclude Include="civilisation.h">
+    <ClInclude Include="vikings\house.h">
+      <Filter>Header Files\vikings</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="house_vikings.h">
-      <Filter>Header Files\vikings</Filter>
+    <ClInclude Include="core\unit.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\town_center.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\hand_cannoneer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\archery_range.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\archer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="japanese\base.h">
+      <Filter>Header Files\japanese</Filter>
+    </ClInclude>
+    <ClInclude Include="japanese\archer.h">
+      <Filter>Header Files\japanese</Filter>
+    </ClInclude>
+    <ClInclude Include="azteks\archer.h">
+      <Filter>Header Files\azteks</Filter>
+    </ClInclude>
+    <ClInclude Include="japanese\archery_range.h">
+      <Filter>Header Files\japanese</Filter>
+    </ClInclude>
+    <ClInclude Include="azteks\archery_range.h">
+      <Filter>Header Files\azteks</Filter>
+    </ClInclude>
+    <ClInclude Include="core\base.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="azteks\base.h">
+      <Filter>Header Files\azteks</Filter>
+    </ClInclude>
+    <ClInclude Include="core\building.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="core\cavalry_archer.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="japanese\cavalry_archer.h">
+      <Filter>Header Files\japanese</Filter>
+    </ClInclude>
+    <ClInclude Include="azteks\cavalry_archer.h">
+      <Filter>Header Files\azteks</Filter>
+    </ClInclude>
+    <ClInclude Include="japanese\hand_cannoneer.h">
+      <Filter>Header Files\japanese</Filter>
+    </ClInclude>
+    <ClInclude Include="azteks\hand_cannoneer.h">
+      <Filter>Header Files\azteks</Filter>
+    </ClInclude>
+    <ClInclude Include="azteks\house.h">
+      <Filter>Header Files\azteks</Filter>
+    </ClInclude>
+    <ClInclude Include="core\house.h">
+      <Filter>Header Files\core</Filter>
+    </ClInclude>
+    <ClInclude Include="japanese\house.h">
+      <Filter>Header Files\japanese</Filter>
+    </ClInclude>
+    <ClInclude Include="azteks\town_center.h">
+      <Filter>Header Files\azteks</Filter>
+    </ClInclude>
+    <ClInclude Include="japanese\town_center.h">
+      <Filter>Header Files\japanese</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
