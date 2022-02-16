@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\vikings">
+      <UniqueIdentifier>{8db70653-3522-4524-966b-a317e5d821c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\vikings">
+      <UniqueIdentifier>{30bfb4a8-bd67-4a7b-9250-996fb5bc2b46}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="prog4_aoe.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="building.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="town_center.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="house.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="archery_range.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="unit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="archer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cavalry_archer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="hand_cannoneer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="base_vikings.cpp">
+      <Filter>Source Files\vikings</Filter>
+    </ClCompile>
+    <ClCompile Include="cavalry_archer_vikings.cpp">
+      <Filter>Source Files\vikings</Filter>
+    </ClCompile>
+    <ClCompile Include="hand_cannoneer_vikings.cpp">
+      <Filter>Source Files\vikings</Filter>
+    </ClCompile>
+    <ClCompile Include="town_center_vikings.cpp">
+      <Filter>Source Files\vikings</Filter>
+    </ClCompile>
+    <ClCompile Include="house_vikings.cpp">
+      <Filter>Source Files\vikings</Filter>
+    </ClCompile>
+    <ClCompile Include="archery_range_vikings.cpp">
+      <Filter>Source Files\vikings</Filter>
+    </ClCompile>
+    <ClCompile Include="archer_vikings.cpp">
+      <Filter>Source Files\vikings</Filter>
+    </ClCompile>
+    <ClCompile Include="civilisation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="base.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="building.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="town_center.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="house.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="archery_range.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="unit.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="archer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cavalry_archer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="hand_cannoneer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="base_vikings.h">
+      <Filter>Header Files\vikings</Filter>
+    </ClInclude>
+    <ClInclude Include="cavalry_archer_vikings.h">
+      <Filter>Header Files\vikings</Filter>
+    </ClInclude>
+    <ClInclude Include="archery_range_vikings.h">
+      <Filter>Header Files\vikings</Filter>
+    </ClInclude>
+    <ClInclude Include="archer_vikings.h">
+      <Filter>Header Files\vikings</Filter>
+    </ClInclude>
+    <ClInclude Include="hand_cannoneer_vikings.h">
+      <Filter>Header Files\vikings</Filter>
+    </ClInclude>
+    <ClInclude Include="town_center_vikings.h">
+      <Filter>Header Files\vikings</Filter>
+    </ClInclude>
+    <ClInclude Include="civilisation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="house_vikings.h">
+      <Filter>Header Files\vikings</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
